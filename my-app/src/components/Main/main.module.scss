@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  &__container {
+    transition: 0.5s;
+    & img {
+      width: 50rem;
+      height: 40rem;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  }
+}
+
+.overflow {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  overflow: hidden;
+}
